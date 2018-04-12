@@ -12,6 +12,7 @@ pkg_exports=(
   [port]=mongod.net.port
 )
 pkg_exposes=(port)
+foo=bar
 
 do_build() {
   return 0
